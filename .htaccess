@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^127\.0\.0\.2$
+RewriteRule ^(.*)$ https://www.4mti.com.br [L,R=301]
